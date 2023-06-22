@@ -5,4 +5,4 @@ Building requires the following libraries in an Agda [`libraries` file](http://a
 - [Agda standard library](http://wiki.portal.chalmers.se/agda/pmwiki.php?n=Libraries.StandardLibrary) under the name `standard-libarary`
 - https://github.com/kcsmnt0/finite under the name `finite`
 
-This code has been tested against Agda version 2.5.4.2 and standard library version 0.17.
+This code is tested against development versions of the Agda compiler and standard library, and was last tested working on June 21, 2023.
