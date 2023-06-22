@@ -111,6 +111,6 @@ module _
         ; _<?_ = λ _ _ → _ DPO.<? _
         }
 
-      acyclicPaths = filter (AcyclicStar-finite a) (P? ∘ proj₁)
+      acyclicPaths = IsFinite.filter (AcyclicStar-finite a) (P? ∘ proj₁)
 
       open Ordered acyclicPaths <′-IsDecStrictPartialOrder

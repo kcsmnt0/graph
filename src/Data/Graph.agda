@@ -104,7 +104,7 @@ record FiniteGraph ℓᵥ ℓₑ : Set (ℓ.suc ℓᵥ ⊔ ℓ.suc ℓₑ) where
     {Vertex} : Set ℓᵥ
     {Edge} : Vertex → Vertex → Set ℓₑ
     {{vertexFinite}} : IsFinite Vertex
-    {{edgeFinite}} : ∀ a → IsFinite (∃ (Edge a))
+    {{edgeFinite}} : ∀ {a} → IsFinite (∃ (Edge a))
     decEqVertex : (a b : Vertex) → Dec (a ≡ b)
 
   open Path Edge public
